@@ -4,9 +4,88 @@
 
 body {
   padding-top: 50px;
+  background-color: #252525;
+  color: white;
 }
+
+a{
+	color: white;
+}
+
+a.visited{
+	color: white;
+	text-decoration: none;
+
+}
+.page-link a:hover{
+	color: white;
+	letter-spacing: 4px;
+	text-decoration: none; 
+}
+
+.wrk-bttn-crcl a img:hover{
+	border-radius: 100%;
+	border:2px dashed #ff0000;
+}
+
 
 .starter-template {
   padding: 40px 15px;
   text-align: center;
+}
+
+.logo{ 
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	margin-top: -50px;
+  	margin-left: -50px;
+}
+.logo h1{
+	font: 30px Tahoma, Helvetica, Arial, Sans-Serif;
+	color: white;
+	text-shadow: 0px 2px 3px #555;
+}
+
+#greene{
+	color: green;
+}
+
+.page-link {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 20px;
+
+}
+
+#about{
+	position: fixed;
+	margin-top: 5px;
+	left: 50%;
+
+}
+
+#contact{
+	position: absolute;
+	bottom: 5px;
+	left: 50%;
+}
+
+#ux{
+	position: fixed;
+	top: 50%;
+	left: 10px;
+	transform: rotate(90deg);
+}
+
+#archi{
+	position: fixed;
+	top: 50%;
+	right: 0px;
+	transform: rotate(-90deg);
+}
+
+#work-button:hover{
+	border-radius: 100%;
+	color: green;
+	border-width: 7px;
 }
