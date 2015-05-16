@@ -4,4 +4,7 @@ class PagesController < ApplicationController
 
   def uxdesign
   end
+
+  def architect
+  end
 end

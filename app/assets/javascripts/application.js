@@ -15,10 +15,3 @@
 //= require bootstrap.min
 //= require turbolinks
 //= require_tree .
-
-$( "#ux-wire-button" )
-  .mouseover(function() {
-    alert("yo");
-  })
-  .mouseout(function() {
-  });
