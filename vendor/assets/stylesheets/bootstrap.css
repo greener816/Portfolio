@@ -1132,6 +1132,8 @@ img {
 }
 .img-rounded {
   border-radius: 6px;
+  box-shadow: 0px 0px 0px 2px #252525;
+  padding-top: 2px;
 }
 .img-thumbnail {
   display: inline-block;
@@ -1148,7 +1150,8 @@ img {
 }
 .img-circle {
   border-radius: 50%;
-  box-shadow: 0px 0px 0px 3px white;
+  box-shadow: 0px 0px 0px 2px #252525;
+  padding-top: 2px;
 }
 
 hr {
@@ -1342,13 +1345,13 @@ mark,
   text-transform: capitalize;
 }
 .text-muted {
-  color: #777;
+  color: white;
 }
 .text-primary {
-  color: #337ab7;
+  color: white;
 }
 a.text-primary:hover {
-  color: #286090;
+  color: white;
 }
 .text-success {
   color: #3c763d;
