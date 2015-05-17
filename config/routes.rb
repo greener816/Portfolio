@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
   root 'pages#index'
-  get 'uxdesign' => 'pages#uxdesign'
-  get 'architect' => 'pages#architect'
+  get 'home' => 'pages#index', as: :home
+  get 'uxdesign' => 'pages#uxdesign', as: :ux
+  get 'architect' => 'pages#architect', as: :architect
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
