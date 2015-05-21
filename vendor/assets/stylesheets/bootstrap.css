@@ -12,6 +12,7 @@ html {
 }
 body {
   margin: 0;
+
 }
 article,
 aside,
@@ -1129,11 +1130,11 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  margin: auto;
 }
 .img-rounded {
   border-radius: 6px;
-  box-shadow: 0px 0px 0px 2px #252525;
-  padding-top: 2px;
+  box-shadow: 0px 0px 0px 2px #252525,  2px 2px 2px 5px #3B3B3B;
 }
 .img-thumbnail {
   display: inline-block;
@@ -1150,8 +1151,7 @@ img {
 }
 .img-circle {
   border-radius: 50%;
-  box-shadow: 0px 0px 0px 2px #252525;
-  padding-top: 2px;
+  box-shadow: 0px 0px 0px 2px #252525,  2px 2px 2px 5px #3B3B3B;
 }
 
 hr {
@@ -6267,11 +6267,11 @@ button.close {
   }
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .icon-prev {
-    margin-left: -15px;
+    margin-left: -30px;
   }
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-next {
-    margin-right: -15px;
+    margin-right: -30px;
   }
   .carousel-caption {
     right: 20%;
